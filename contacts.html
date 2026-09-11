@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Contacts</title>
+    <link rel="stylesheet" href="joy.css">
+</head>
+<body>
+
+<div class="container page-container">
+
+    <span class="star star1">★</span>
+    <span class="star star2">★</span>
+    <span class="star star3">★</span>
+    <span class="star star4">★</span>
+    <span class="star star5">★</span>
+    <span class="star star6">★</span>
+    <span class="star star7">★</span>
+    <span class="star star8">★</span>
+    <span class="star star9">★</span>
+
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO</div>
+
+        <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="contacts.html" class="nav-link active">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact-section">
+
+        <h2>Let's connect</h2>
+        <p class="contact-subtitle">Reach out through any of these — I usually reply within a day.</p>
+        <span id="random-word"></span>
+
+        <div class="contact-info-card">
+
+            <div class="contact-info-item">
+                <span class="contact-info-icon">@</span>
+                <span class="contact-info-label">Email</span>
+                <span class="contact-info-value">acaballucil94@gmail.com</span>
+            </div>
+
+            <div class="contact-info-item">
+                <span class="contact-info-icon">☎</span>
+                <span class="contact-info-label">Phone</span>
+                <span class="contact-info-value">0968-244-4104</span>
+            </div>
+
+            <div class="contact-info-item">
+                <span class="contact-info-icon">★</span>
+                <span class="contact-info-label">Location</span>
+                <span class="contact-info-value">Bais City, Philippines</span>
+            </div>
+
+        </div>
+
+        <div class="social-pills">
+            <a href="https://www.facebook.com/acabal.lucil.1?mibextid=rS40aB7S9Ucbxw6v" target="_blank" class="pill-btn">Facebook</a>
+            <a href="https://www.instagram.com/Itsss_me_lucil" target="_blank" class="pill-btn">Instagram</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=acaballucil94@gmail.com" target="_blank" class="pill-btn">Email</a>
+        </div>
+
+    </section>
+
+</div>
+
+<script>
+    const randomWords = ["Serendipity", "Wanderlust", "Curiosity", "Resilience", "Harmony", "Whimsical", "Radiant", "Solitude", "Ember", "Horizon"];
+    const word = randomWords[Math.floor(Math.random() * randomWords.length)];
+    document.getElementById('random-word').textContent = word;
+</script>
+
+</body>
+</html>
